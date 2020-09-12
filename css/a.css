@@ -7,3 +7,6 @@
 .aside  .nav-toggle span::before{
     color: #ec1839;
 }
+.aside .nav li a.active{
+    color: #ec1839;
+}
