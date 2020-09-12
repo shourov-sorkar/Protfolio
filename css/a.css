@@ -1,12 +1,26 @@
 .aside .nav li a:hover{
     color: #ec1839;
 }
-.aside  .nav-toggle span{
-    background-color: #ec1839;
-}
-.aside  .nav-toggle span::before{
-    color: #ec1839;
-}
+
+.about-text h3 span,
 .aside .nav li a.active{
     color: #ec1839;
+}
+.aside .nav-toggler span{
+    background-color: #ec1839;
+
+}
+.aside .nav-toggler span::before{
+    background-color: #ec1839;
+}
+.aside .nav-toggler span::after{
+    background-color: #ec1839;
+}
+.home .intro .social-link a{
+    background-color: #ec1839;
+}
+.btn,
+.section-title h2::after,
+.section-title h2::before{
+    background-color: #ec1839;
 }
