@@ -19,8 +19,13 @@
 .home .intro .social-link a{
     background-color: #ec1839;
 }
+.about-content .timeline .circle-dot,
+.skills .skill-item .progress .progress-in,
 .btn,
 .section-title h2::after,
 .section-title h2::before{
+    background-color: #ec1839;
+}
+.about-content .timeline .timeline-item::before{
     background-color: #ec1839;
 }
