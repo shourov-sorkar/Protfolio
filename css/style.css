@@ -235,24 +235,28 @@ section .container{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+    font-family: 'Playfair Display', serif;
 }
 .about-text h3{
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 700;
     color: #302e4d;
+    font-family: 'Playfair Display', serif;
 }
 .about-text p{
     font-size: 16px;
     line-height: 25px;
     color: #504e70;
     margin: 0;
+    font-family: 'Playfair Display', serif;
 }
 .personal-info{
     -ms-flex: 0 0 60%;
     flex: 0 0 60%;
     max-width: 60%;
     margin-top: 40px;
+    font-family: 'Playfair Display', serif;
 }
 .personal-info .info-item p{
     font-weight: 600;
@@ -261,6 +265,8 @@ section .container{
     color: #302e4d;
     margin: 0;
     border-bottom: 1px solid #e8dfec;
+    font-family: 'Playfair Display', serif;
+
 }
 .personal-info .info-item p span{
     font-weight: 400;
@@ -392,14 +398,37 @@ section .container{
 .about-content .timeline .timeline-title{
     font-weight: 700;
     font-size: 18px;
-    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 900;
     text-transform: capitalize;
     color: #302e4d;
     
 }
 .about-content .timeline .timeline-text{
+    font-family: 'Playfair Display', serif;
     font-size: 16px;
     line-height: 25px;
     color: #504e70;
     margin: 0;
+}
+.timeline-title i{
+    background-color: #067ac2;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #f2f2fc;
+    border-radius: 12px 5px 12px 5px;
+    transition: 0.5s;
+}
+.timeline-title i:hover{
+    margin-right: 8px;
+}
+.timeline-item .position{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
 }
