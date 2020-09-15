@@ -2,6 +2,7 @@
     color: #ec1839;
 }
 
+.service-item .service-item-inner .icon .fas,
 .about-text h3 span,
 .aside .nav li a.active{
     color: #ec1839;
@@ -19,6 +20,7 @@
 .home .intro .social-link a{
     background-color: #ec1839;
 }
+.service-item .service-item-inner:hover .icon,
 .about-content .timeline .circle-dot,
 .skills .skill-item .progress .progress-in,
 .btn,
