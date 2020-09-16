@@ -29,7 +29,7 @@
        </div>
     </div>
     <div class="main-content">
-        <section class="home section hidden">
+        <section class="home section">
             <div class="container">
                 <div class="intro">
                     <img src="img/shourov.jpg" alt="profile_img" class="shadow-dark">
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-section hidden ">
+        <section class="about-section ">
             <div class="container">
                 <div class="row">
                     <div class="section-title padd-15">
@@ -200,7 +200,7 @@
                 </div>
             </div>
         </section>
-        <section class="service-section hidden">
+        <section class="service-section">
             <div class="container">
                 <div class="row">
                     <div class="section-title padd-15">
@@ -358,16 +358,18 @@
 <div class="lightbox">
     <div class="lightbox-content">
         <div class="lightbox-close">&times;</i></div>
-        <img src="img/protfolio-1.JPG" alt="lightbox img"> 
+        <img src="img/protfolio-1.JPG" class="lightbox-img" alt="lightbox img" onclick="nextItem()"> 
         <div class="lightbox-caption">
-            <div class="caption-text">Web Design</div>
-            <div class="caption-counter">1 of 6</div>
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
         </div>
     </div>
     <div class="lightbox-controls">
-        <div class="prev-item"><i class="fas fa-angle-left"></i></div>
-        <div class="next-item"><i class="fas fa-angle-right"></i></div>
+        <div class="prev-item" onclick="prevItem()"><i class="fas fa-angle-left"></i></div>
+        <div class="next-item" onclick="nextItem()"><i class="fas fa-angle-right"></i></div>
     </div>
 </div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
