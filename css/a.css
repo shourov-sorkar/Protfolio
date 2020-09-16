@@ -1,7 +1,9 @@
 .aside .nav li a:hover{
     color: #ec1839;
-}
-
+}.lightbox .lightbox-controls .prev-item .fas,
+.lightbox .lightbox-controls .next-item .fas,
+.protfolio-item .portfolio-info .icon .fas,
+.protfolio-section .protfolio-filter button.active,
 .service-item .service-item-inner .icon .fas,
 .about-text h3 span,
 .aside .nav li a.active{
@@ -30,4 +32,7 @@
 }
 .about-content .timeline .timeline-item::before{
     background-color: #ec1839;
+}
+.protfolio-section .protfolio-filter button.active{
+    border-color: #ec1839;;
 }
