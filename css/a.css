@@ -1,6 +1,7 @@
 .aside .nav li a:hover{
     color: #ec1839;
 }
+.contact-section .contact-info-item .icon .fas,
 .blog-section .blog-item-inner .blog-info .blog-tags a,
 .lightbox .lightbox-controls .prev-item .fas,
 .lightbox .lightbox-controls .next-item .fas,
