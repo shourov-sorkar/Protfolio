@@ -1,6 +1,8 @@
 .aside .nav li a:hover{
     color: #ec1839;
-}.lightbox .lightbox-controls .prev-item .fas,
+}
+.blog-section .blog-item-inner .blog-info .blog-tags a,
+.lightbox .lightbox-controls .prev-item .fas,
 .lightbox .lightbox-controls .next-item .fas,
 .protfolio-item .portfolio-info .icon .fas,
 .protfolio-section .protfolio-filter button.active,
@@ -22,6 +24,7 @@
 .home .intro .social-link a{
     background-color: #ec1839;
 }
+.blog-section .blog-item-inner .blog-date,
 .service-item .service-item-inner:hover .icon,
 .about-content .timeline .circle-dot,
 .skills .skill-item .progress .progress-in,
