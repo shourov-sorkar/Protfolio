@@ -1,6 +1,6 @@
 body.dark .aside .nav li a:hover,
 .aside .nav li a:hover{
-    color: #ec1839;
+    color: #fa5b0f;
 }
 .contact-section .contact-info-item .icon .fas,
 .blog-section .blog-item-inner .blog-info .blog-tags a,
@@ -13,20 +13,20 @@ body.dark .protfolio-section .protfolio-filter button.active,
 .about-text h3 span,
 body.dark .aside .nav li a.active,
 .aside .nav li a.active{
-    color: #ec1839;
+    color: #fa5b0f;
 }
 .aside .nav-toggler span{
-    background-color: #ec1839;
+    background-color: #fa5b0f;
 
 }
 .aside .nav-toggler span::before{
-    background-color: #ec1839;
+    background-color: #fa5b0f;
 }
 .aside .nav-toggler span::after{
-    background-color: #ec1839;
+    background-color: #fa5b0f;
 }
 .home .intro .social-link a{
-    background-color: #ec1839;
+    background-color: #fa5b0f;
 }
 .blog-section .blog-item-inner .blog-date,
 .service-item .service-item-inner:hover .icon,
@@ -35,12 +35,12 @@ body.dark .aside .nav li a.active,
 .btn,
 .section-title h2::after,
 .section-title h2::before{
-    background-color: #ec1839;
+    background-color: #fa5b0f;
 }
 .about-content .timeline .timeline-item::before{
-    background-color: #ec1839;
+    background-color: #fa5b0f;
 }
 body.dark .protfolio-section .protfolio-filter button.active,
 .protfolio-section .protfolio-filter button.active{
-    border-color: #ec1839;;
+    border-color: #fa5b0f;
 }
