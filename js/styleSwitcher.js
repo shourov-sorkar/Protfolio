@@ -17,10 +17,10 @@ const bodySkin=document.querySelectorAll(".body-skin"),
     for(let i=0; i<totalBodySkin; i++){
         bodySkin[i].addEventListener("change",function(){
             if(this.value === "dark"){
-                document.body.classList.add("dark")
+                document.body.className="dark";
             }
             else{
-                document.body.classList.remove("dark")
+                document.body.className="";
             }
         })
     }
