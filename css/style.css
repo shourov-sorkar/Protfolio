@@ -298,11 +298,15 @@ section .container{
 .aside .nav li a .fa{
     margin-left: 5px;
 }
+.aside .nav li a .fab{
+    margin-left: 5px;
+}
 .home{
     min-height: 100vh;
     display: -ms-flexbox;
     display: flex;
 }
+
 .home .intro{
     text-align: center;
 }
@@ -312,7 +316,14 @@ section .container{
     border-radius: 50%;
     display: inline-block;
     border: 8px solid #ffffff;
+    transition: all 0.4s ease-in-out;
 }
+.home .intro img:hover{
+    border-style: double;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+}
+
 .home .intro h1{
     font-size: 30px;
     color: #302e4d;
@@ -594,7 +605,17 @@ section .container{
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+.service-item .service-item-inner .icon .fab{
+    font-size: 40px;
+    line-height: 60px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 .service-item .service-item-inner:hover .icon .fas{
+    font-size: 25px;
+    color: #ffffff;
+}
+.service-item .service-item-inner:hover .icon .fab{
     font-size: 25px;
     color: #ffffff;
 }
@@ -611,6 +632,7 @@ section .container{
     color: #504e70;
     line-height: 25px;
     margin: 0;
+    letter-spacing: 2px;
 }
 .protfolio-section .protfolio-filter{
     -ms-flex: 0 0 100%;
@@ -906,14 +928,15 @@ section .container{
     font-weight: 700;
     color: #302e4d;
     text-transform: capitalize;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .blog-section .blog-item-inner .blog-info .blog-description{
     font-size: 16px;
-    line-height: 15px;
+    line-height: 30px;
     color: #504e70;
     font-weight: 400;
     margin-bottom: 15px;
+    letter-spacing: 2px;
 }
 .blog-section .blog-item-inner .blog-info .blog-tags{
     font-size: 16px;
